@@ -12,7 +12,11 @@ response = wepay.call('/checkout/create', access_token, {
 	:account_id => 463624231,
 	:short_description => 'Lego Mindstorms',
 	:type => 'TOYS',
-	:amount => '399.99'
+	:amount => '399.99',
+	:redirect_uri => 'url of a website'
+	
 })
 
 puts response
+
+#redirect user to response['checkout_uri']
