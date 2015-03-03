@@ -1,5 +1,5 @@
 #simplified version
-# download the Ruby SDK at https://github.com/wepay/ruby-sdk
+# download the Ruby SDK at https://github.com/wepay/ruby-sdk or install the sdk by running gem install wepay in terminal
 require 'wepay'
 
 # credentials
